@@ -1,0 +1,379 @@
+﻿<Window x:Class="pruebaProyecto2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:custom="clr-namespace:pruebaProyecto2"
+        xmlns:local="clr-namespace:pruebaProyecto2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Name="ventanaPrincipal">
+    <DockPanel Name="miDockPanel">
+        <Menu  DockPanel.Dock="Top">
+
+
+
+            <MenuItem Header="archivo">
+
+            </MenuItem>
+
+            <MenuItem Header="configuracion">
+                <MenuItem Header="Apariencia">
+                    <MenuItem Header="modo oscuro" Click="MenuItem_Click_2">
+
+                    </MenuItem>
+                    <MenuItem Header="modo claro" Click="MenuItem_Click_3">
+
+                    </MenuItem>
+                </MenuItem>
+
+            </MenuItem>
+
+            <MenuItem Header="Apariencia" IsCheckable="False">
+                <MenuItem Header="linea">
+
+                    <GroupBox Header="Apariencia" Width="140">
+                        <StackPanel>
+                            <TextBlock>Grosor de linea</TextBlock>
+                            <Slider Name="sliderGrosor" Minimum="0" Maximum="10" Value="1" TickFrequency=".5" TickPlacement="BottomRight"></Slider>
+                            <TextBlock>Color de linea</TextBlock>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Width="15" Height="15" Margin="2" Name="botonLineaRojo" Click="botonLineaRojo_Click">
+                                    <Rectangle Stroke="Black" Width="7" Height="7" Fill="red"></Rectangle>
+                                </Button>
+                                <Button Width="15" Height="15" Margin="2" Name="botonLineaAmarillo" Click="botonLineaAmarillo_Click">
+                                    <Rectangle Stroke="Black" Width="7" Height="7" Fill="Yellow"></Rectangle>
+                                </Button>
+                                <Button Width="15" Height="15" Margin="2" Name="botonLineaAzul" Click="botonLineaAzul_Click">
+                                    <Rectangle Stroke="black" Width="7" Height="7" Fill="blue"></Rectangle>
+                                </Button>
+                                <Button Width="15" Height="15" Margin="2" Name="BotonLineaVerde" Click="BotonLineaVerde_Click">
+                                    <Rectangle Stroke="Black" Width="7" Height="7" Fill="Green"></Rectangle>
+                                </Button>
+
+                                <Button Width="15" Height="15" Margin="2" Name="BotonLineaNegra" Click="BotonLineaNegra_Click">
+                                    <Rectangle Stroke="Black" Width="7" Height="7" Fill="Black"></Rectangle>
+                                </Button>
+
+
+                            </StackPanel>
+
+                            <TextBlock>Trazo de linea</TextBlock>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Width="15" Height="15" Margin="2" Name="Trazo" Click="Trazo_Click">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="imágenes/puntiagudo.png"></ImageBrush>
+                                    </Button.Background>
+                                </Button>
+
+                                <Button Width="15" Height="15" Margin="2" Name="trazoRedondo" Click="trazoRedondo_Click">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="imágenes/redondeado.png"></ImageBrush>
+                                    </Button.Background>
+                                </Button>
+
+                                <Button Width="15" Height="15" Margin="2" Name="trazoPlano" Click="trazoPlano_Click">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="imágenes/trazoPlano.png"/>
+                                    </Button.Background>
+                                </Button>
+                            </StackPanel>
+
+                            <CheckBox Name="punteada" Content="punteada" IsChecked="False" Checked="punteada_Checked" Unchecked="punteada_Unchecked"></CheckBox>
+
+                        </StackPanel>
+                    </GroupBox>
+
+                </MenuItem>
+
+                <MenuItem Header="lienzo">
+                    <GroupBox Header="controles lienzo">
+                        <StackPanel>
+                            <TextBlock>Tamaño lienzo</TextBlock>
+                            <Slider Name="sliderLIenzo" Minimum="1" Maximum="2000" Value="216">
+                                <!--Value="{Binding ElementName=cuadricula, Path=Stretch}"-->
+                            </Slider>
+
+                            <TextBlock>Colores Lienzo</TextBlock>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Width="15" Height="15" Margin="2" Name="colorLienzoRojo">
+                                    <Rectangle Stroke="Black" Width="7" Height="7" Fill="red"></Rectangle>
+                                </Button>
+
+                                <Button Width="15" Height="15" Margin="2" Name="colorLienzoVerde">
+                                    <Rectangle Stroke="Black" Width="7" Height="7" Fill="Green"></Rectangle>
+                                </Button>
+
+                                <Button Width="15" Height="15" Margin="2" Name="colorLienzoBlanco" Click="colorLienzoBlanco_Click">
+                                    <Rectangle Stroke="Black" Width="7" Height="7" Fill="White"></Rectangle>
+                                </Button>
+
+                            </StackPanel>
+
+                            <TextBlock>Cuadrícula</TextBlock>
+                            <CheckBox Content="activar" x:Name="checkBoxActivarCuadricula"
+                                      IsChecked="{Binding ElementName=cuadricula, Path=Opacity}"></CheckBox>
+                            <Slider x:Name="sliderCuadricula" Minimum="1" Maximum="1000" TickFrequency="10" TickPlacement="BottomRight" Value="10"></Slider>
+
+                            <TextBlock></TextBlock>
+                        </StackPanel>
+                    </GroupBox>
+
+                </MenuItem>
+
+            </MenuItem>
+
+            <MenuItem Header="ayuda">
+                <StackPanel Width="200">
+                    <Label FontWeight="Bold" Background="Gray" Foreground="White">
+                        Ayuda
+                    </Label>
+                    <TextBlock TextWrapping="WrapWithOverflow">
+                    Esta es una aplicacion de representacion de puntos.
+                    Los puntos se agrupan en colecciones de puntos.
+                    Para añadir una tabla pulsa el boton <Image Source="imágenes/nuevacoleccion.png" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+                    </TextBlock>
+                    <Line Stroke="Black" StrokeThickness="1" X2="200" Margin="1"></Line>
+                    <TextBlock TextWrapping="WrapWithOverflow">
+                    para representar las colecciones de
+                    puntos se ha de seleccionar una coleccion en la lista de la izquierda.
+                    A continuacion se pulsara el boton <Image Source="imágenes/sprite-0001-2-export.png" Width="20" Height="20"
+                                                              HorizontalAlignment="Center"
+                                                              VerticalAlignment="Center">
+                        
+                    </Image>
+                    </TextBlock>
+                    <Line Stroke="Black" StrokeThickness="1" X2="200" Margin="1"></Line>
+                    <Line Stroke="Black" StrokeThickness="1"></Line>
+                    <TextBlock TextWrapping="WrapWithOverflow">
+                    En el caso  de que se quiera representar una grafica de barras se ha de pulsar el botón
+                        <Image Source="imágenes/graficaBarras.png" Width="20" Height="20"></Image>
+                    </TextBlock>
+                    <Line Stroke="Black" StrokeThickness="1" X2="200" Margin="1"></Line>
+
+
+                </StackPanel>
+            </MenuItem>
+        </Menu>
+
+
+        <ToolBar Name="miBarra" DockPanel.Dock="Top" Height="60"  BorderThickness="0" BorderBrush="AliceBlue">
+
+            <Button Name="representar" Width="50" Height="50" Margin="5,0" Click="dibujarPuntos_Click"
+                    BorderBrush="DimGray" BorderThickness="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="imágenes/Sprite-0001-2-export.png"></ImageBrush>
+                </Button.Background>
+
+                <Button.ToolTip>
+                    <ToolTip>
+                        Representa la coleccion de puntos en el lienzo
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+
+
+            <Button Name="botonBorrar" Width="50" Height="50" Margin="5,0"  Click="borrarLienzo_Click"
+                    BorderBrush="DimGray" BorderThickness="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="imágenes/borrador.png"></ImageBrush>
+                </Button.Background>
+
+
+                <Button.ToolTip>
+                    <ToolTip>
+                        borra el contenido del lienzo
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+
+            <Button Name="NuevaColeccion" Width="50" Height="50" Margin="7,0" Click="nuevaT_Click"
+                    BorderBrush="DimGray" BorderThickness="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="imágenes/nuevaColeccion.png"></ImageBrush>
+                </Button.Background>
+
+                <Button.ToolTip>
+                    <ToolTip>
+                        crea una nueva coleccion de puntos
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+
+            <Button Name="graficaBarras" Width="50" Height="50" Margin="5,0" Click="GraficaBarras_Click"
+                    BorderBrush="DimGray" BorderThickness="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="imágenes/graficaBarras.png"></ImageBrush>
+                </Button.Background>
+
+                <Button.ToolTip>
+                    <ToolTip>
+                        representa una coleccion en forma de gráfico de barras
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+
+            <Button Name="botonPolinomio" Width="50" Height="50" Margin="5,0"
+                    BorderBrush="DimGray" BorderThickness="1" Click="botonPolinomio_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="imágenes/polinomio.png"></ImageBrush>
+                </Button.Background>
+
+                <Button.ToolTip>
+                    <ToolTip>
+                        permite representacion mediante polinomio
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+
+            <Button Name="botonBorrarColecciones" Width="50" Height="50" Margin="5,0"
+                    BorderBrush="DimGray" BorderThickness="1" Click="botonBorrarColecciones_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="imágenes/borrarTablas.png"></ImageBrush>
+                </Button.Background>
+
+                <Button.ToolTip>
+                    <ToolTip>
+                        borra todas las colecciones existentes
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+
+            <ToggleButton Name="botonSeleccion" Width="50" Height="50" Margin="5,0"
+                    BorderBrush="DimGray" BorderThickness="1" Checked="botonSeleccion_Checked" Unchecked="botonSeleccion_Unchecked">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="imágenes/Sprite-0001.png"></ImageBrush>
+                </ToggleButton.Background>
+
+                <ToggleButton.ToolTip>
+                    <ToolTip>
+                        activa o desactiva la seleccion de area
+                    </ToolTip>
+                </ToggleButton.ToolTip>
+            </ToggleButton>
+
+            <Button Name="sobreescribirTabla" Width="50" Height="50" Margin="5,0"
+                    BorderBrush="DimGray" BorderThickness="1" Click="sobreescribirTabla_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="imágenes/conversion.png"></ImageBrush>
+                </Button.Background>
+
+                <Button.ToolTip>
+                    <ToolTip>
+                        borra todas las colecciones existentes
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+
+        </ToolBar>
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MaxWidth="250" />
+                <ColumnDefinition Width="4.7*"/>
+            </Grid.ColumnDefinitions>
+
+
+
+            <Grid x:Name="MenuPrincipal">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+
+
+
+
+
+
+                <Button Name="ModificarTablas" Content="modificar tabla" Click="ModificarTablas_Click" Grid.Row="0" Margin="10"
+                            Grid.Column="1" Height="20"/>
+
+                <Button Name="BorrarTablas" Content="Borrar Tabla" Click="BorrarTablas_Click" Grid.Row="0" Margin="10" Height="20"/>
+
+                <ListView Name="listaColecciones"   Grid.Row="1" Grid.ColumnSpan="2" Margin="10,10,10,15"
+                          AlternationCount="1000">
+
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate></DataTemplate>
+                    </ListView.ItemTemplate>
+                    <ListView.View>
+                        <GridView AllowsColumnReorder="False">
+                            
+                            <GridViewColumn Header="Tablas" Width="100"
+                                             
+                                            DisplayMemberBinding="{Binding (ItemsControl.AlternationIndex),
+       RelativeSource={RelativeSource AncestorType=ListViewItem}}"
+                                            >
+
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+
+                    <ListView.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="añadirTabla" Click="nuevaT_Click"></MenuItem>
+                            <MenuItem Header="eliminarTabla" Click="BorrarTablas_Click"></MenuItem>
+                            <MenuItem Header="modificarTabla" Click="ModificarTablas_Click"></MenuItem>
+                        </ContextMenu>
+                    </ListView.ContextMenu>
+                </ListView>
+            </Grid>
+
+            <Border BorderBrush="DarkGray" BorderThickness="1" Grid.Column="1" Margin="10">
+                <Viewbox Grid.Column="1" x:Name="miviewbox" HorizontalAlignment="Right" VerticalAlignment="Center" Stretch="Fill">
+                    <Canvas x:Name="lienzo" Width="220" Height="116" Grid.Column="1" ClipToBounds="True "
+                            MouseDown="lienzo_MouseDown"
+                            MouseUp="lienzo_MouseUp"
+                            MouseMove="lienzo_MouseMove" RenderTransformOrigin="1.011,0.489">
+                        <Canvas.LayoutTransform >
+                            <TransformGroup>
+                                <TranslateTransform
+                                    X="-100" Y="0"/>
+                                <ScaleTransform ScaleX="1" ScaleY="-1" CenterX=".5" CenterY=".5" x:Name="miTransform">
+
+                                </ScaleTransform>
+                            </TransformGroup>
+                        </Canvas.LayoutTransform>
+
+                        <Canvas.Background>
+
+                            <DrawingBrush TileMode="Tile" Viewport="-10,-10,10,10" ViewportUnits="Absolute" x:Name="cuadricula">
+                                <DrawingBrush.Drawing>
+                                    <GeometryDrawing>
+
+                                        <GeometryDrawing.Geometry>
+                                            <RectangleGeometry Rect="0,0,50,50"/>
+                                        </GeometryDrawing.Geometry>
+
+                                        <GeometryDrawing.Pen>
+                                            <Pen Brush="Gray" Thickness="1"></Pen>
+                                        </GeometryDrawing.Pen>
+                                    </GeometryDrawing>
+                                </DrawingBrush.Drawing>
+                            </DrawingBrush>
+
+                        </Canvas.Background>
+
+                        <Rectangle
+                        x:Name="selectionBox"
+                        Visibility="Collapsed"
+                        Stroke="Black"
+                        StrokeThickness="1"
+                        />
+                        
+                    </Canvas>
+
+                </Viewbox>
+            </Border>
+        </Grid>
+    </DockPanel>
+</Window>
