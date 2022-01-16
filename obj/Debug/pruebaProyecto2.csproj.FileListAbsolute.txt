@@ -1,0 +1,72 @@
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\bin\Debug\pruebaProyecto2.exe.config
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\bin\Debug\pruebaProyecto2.exe
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\bin\Debug\pruebaProyecto2.pdb
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.csprojAssemblyReference.cache
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\MainWindow.g.cs
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\App.g.cs
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2_MarkupCompile.cache
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2_MarkupCompile.lref
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\MainWindow.baml
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.g.resources
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.Properties.Resources.resources
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.csproj.GenerateResource.cache
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.csproj.CoreCompileInputs.cache
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.exe
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.pdb
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\Window1.g.cs
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\Window1.baml
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\App.baml
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\temaClaro.baml
+C:\Users\Guillermo\source\repos\pruebaProyecto2\pruebaProyecto2\obj\Debug\temaOscuro.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\bin\Debug\pruebaProyecto2.exe.config
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\bin\Debug\pruebaProyecto2.exe
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\bin\Debug\pruebaProyecto2.pdb
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.csprojAssemblyReference.cache
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\MainWindow.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\Window1.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\App.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2_MarkupCompile.cache
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2_MarkupCompile.lref
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\App.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\MainWindow.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\temaClaro.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\temaOscuro.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\Window1.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.g.resources
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.Properties.Resources.resources
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.csproj.GenerateResource.cache
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.csproj.CoreCompileInputs.cache
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.exe
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\pruebaProyecto2.pdb
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\nuevoModoOscuro.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\prueba.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\prueba.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\polinomioVentana.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega\pruebaProyecto2\pruebaProyecto2\obj\Debug\polinomioVentana.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\bin\Debug\pruebaProyecto2.exe.config
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\bin\Debug\pruebaProyecto2.exe
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\bin\Debug\pruebaProyecto2.pdb
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\pruebaProyecto2.csprojAssemblyReference.cache
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\MainWindow.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\polinomioVentana.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\prueba.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\Window1.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\App.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\pruebaProyecto2_MarkupCompile.cache
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\pruebaProyecto2_MarkupCompile.lref
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\App.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\MainWindow.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\nuevoModoOscuro.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\polinomioVentana.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\prueba.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\temaClaro.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\temaOscuro.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\Window1.baml
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\pruebaProyecto2.g.resources
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\pruebaProyecto2.Properties.Resources.resources
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\pruebaProyecto2.csproj.GenerateResource.cache
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\pruebaProyecto2.csproj.CoreCompileInputs.cache
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\pruebaProyecto2.exe
+F:\documentos\universidad\2º carrera Salamanca\interfaces graficas de usuario\entrega2-0\pruebaProyecto2\obj\Debug\pruebaProyecto2.pdb
